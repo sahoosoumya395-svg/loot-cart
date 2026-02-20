@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.off-section{
+    background-color: rgb(196, 24, 24);
+    color: white;
+    font-size: 23px;
+    font-weight: 800;
+    text-align: center;
+    padding: 3px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 50px;
+}
+.logo{
+    width: 55px;
+}
+.icon{
+    font-size: 32px;
+    font-weight: 900;
+    font-family:;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 50px;
+}
+.right li{
+list-style: none;
+}
+.right li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+}
+.right li a:hover{
+    cursor: pointer;
+    background-color: rgb(207, 114, 130);
+    color: whitesmoke;
+}
+.categories{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(218, 156, 156);
+}
+.categories li{
+    list-style: none;
+}
+.categories li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: inline-block;
+transition: all 0.2s ease-in;
+}
+.categories li a:hover{
+    transform: translateX(-4px);
+    text-decoration: underline;
+}
+.main{
+    height: 60vh;
+    width: 60%;
+}
+.main-img {
+    height: 60vh;
+    float: right;
+}
+.additional{
+    position: absolute;
+    top: 40vh;
+    left: 20px;
+    
+}
+.additional p{
+    width: 30vh;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.buy{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(80, 44, 44);
+    color: beige;
+    display: block;
+    margin: auto;
+    transition: all o.3s ease-in;
+    cursor: pointer;
+}
+.buy:hover{
+    transform: scale(1.1);
+}
+.search{
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    margin-top: 27px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4) inset;
+    background-color: rgb(248, 225, 229);
+}
+.search-btn{
+    width: 75px;
+    text-decoration: none;
+    padding: 10px;
+    border: 10px;
+    background-color:rgb(248, 225, 229);
+    margin: 10px;
+    border-radius: 10px;
+
+
+}
+.search-btn:hover{
+    transform: translateY(-5px);
+
+}
+.products{
+    width: 100%;
+    height: 75vh;
+}
+.product-head{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.product-img{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+margin: 10px;
+    
+}
+.product-img:hover{
+    transform: scale(1.1);
+}
+.product p{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.product span{
+    color: pink;
+    background-color: black;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.product span:hover{
+    color: bisque;
+}
+.contact{
+    width: 100%;
+    height: 70vh;
+}
+.cont-head{
+text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form{
+    width: 550px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact label{
+    font-size: 20px;
+    margin-left: -250px;
+}
+.contact input{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.form-btn{
+    background-color: beige;
+    color: white;
+    transition: all 0.3s ease-in;
+    padding: 8px 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+
+}
+.form-btn:hover{
+    background-color: black;
+    color: white;
+}
+.contact p{
+    position: absolute;
+    width: 500px;
+    left: 40px;
+    margin: 40px;
+    letter-spacing: 1.3px;
+    line-height: 20px;
+}
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    display: grid;
+    grid-template-columns: 200px  200px 200px;
+    grid-template-rows: 30px 30px 30px;
+    margin-left: 50px;
+
+}
+.links li{
+    list-style: none;
+
+}
+.links li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    transition: all 0.2s ease-in;
+}
+.links li a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    color: rgb(220, 58, 85);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.icons a{
+    font-size: 35px;
+    color: rgb(202, 63, 87);
+    margin-right: 50px;
+    transition: all 0.2s ease-in;
+}
+.icons a:hover{
+    color: white;
+    transform: scale(1.2);
+    
+}
